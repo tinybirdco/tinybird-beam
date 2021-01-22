@@ -1,5 +1,4 @@
-import base64
-import json
+import os
 import time
 
 from google.cloud import pubsub_v1
@@ -7,8 +6,8 @@ from google.cloud import pubsub_v1
 # gcloud pubsub topics create demo-topic
 # gcloud pubsub topics delete demo-topic
 
-PROJECT = 'stddevco'
-PUBSUB_TOPIC = f'demo-topic'
+PROJECT = os.environ['PROJECT_NAME']
+PUBSUB_TOPIC = os.environ['TOPIC']
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(PROJECT, PUBSUB_TOPIC)

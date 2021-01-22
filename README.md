@@ -15,7 +15,7 @@ Install the `tinybird-beam` [PyPI package](https://pypi.org/project/tinybird-bea
 pip install tinybird-beam
 ```
 
-## How to use it
+## How to use it
 
 ```python
 # Import the sink class

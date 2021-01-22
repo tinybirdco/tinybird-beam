@@ -77,7 +77,7 @@ source sample.env
 gcloud pubsub topics create demo-topic
 ```
 
--- Import the `dataflow/pubsub/invoices_sample.json` file to BigQuery. We use as `dataset.table_name` -> `tinybird.pubsub__invoices`.
+- Import the `dataflow/pubsub/invoices_sample.json` file to BigQuery. We use as `dataset.table_name` -> `tinybird.pubsub__invoices`.
 
 ### Run the example
 

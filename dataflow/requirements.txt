@@ -1,0 +1,3 @@
+google-cloud-language
+apache-beam[gcp]
+tinybird-beam

@@ -44,7 +44,7 @@ The `dataflow` directory contains some sample code to deploy to DataFlow an Apac
 
 Follow these steps to run the example:
 
-### Prepare the environment
+### Prepare the environment
 
 - Push this Data Source to your Tinybird account and name it `pubsub__invoices`:
 
@@ -128,7 +128,7 @@ After the pipeline is deployed [the job](https://console.cloud.google.com/datafl
 
 Once it starts receiving data, you can check the data in your BigQuery table and Tinybird Data Source.
 
-### Clean resources
+### Clean resources
 
 Stop the DataFlow pipeline from the [Google Cloud console](https://console.cloud.google.com/dataflow/jobs).
 

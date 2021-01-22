@@ -28,6 +28,6 @@ setup(
     #test_suite='tests',
     #tests_require=test_requirements,
     #url='https://github.com/mitchelllisle/beam-sink',
-    version='1.0.0.dev9',
+    version='1.0.0b1',
     zip_safe=False,
 )
